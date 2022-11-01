@@ -1,0 +1,101 @@
+.container {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0;
+}
+
+.Navbar ul li .navName {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+
+}
+
+.Navbar ul li {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 20px 20px 20px;
+    justify-content: center;
+
+}
+
+.Navbar ul {
+    display: flex;
+}
+
+.logo-container  {
+    font-size: 24px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+a:active, a:link, a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+#logo {
+    position: absolute;
+    top: 32px;
+    left: 50px;
+    width: 210px;
+    height: auto;
+}
+
+.nav-btn-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-btn-container a{
+    flex-direction: none;
+
+}
+.nav-bar-btn ul li{
+    display: flex;
+    text-decoration: none;
+    padding: 6px 25px;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.sidenav {
+    position: absolute;
+    background-color: #111;
+    top: 0;
+    width: 400px;
+    right: 0;
+    /* transition: 0.5s; */
+    transition : " 0.3s ease-in-out" !important;
+    /* transition : " 0.8s ease-in-out"; */
+    /* transition: all 0.3s ease-in-out 0s; */
+    overflow-x: hidden;
+    padding: 80px;
+
+
+}
+  .sidenav a {
+    margin-top: 30px;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+
+  }
+  .closeIcon {
+    float: right;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+  }
+  .menu-list {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+
