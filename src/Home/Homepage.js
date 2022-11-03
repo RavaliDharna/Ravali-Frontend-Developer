@@ -12,7 +12,8 @@ const Homepage = () => {
           <h2 className="missionHeader">Starlink Mission</h2>
           <div className="btn">
             <a class="reWatchBtn" tabindex="0" href="/launches/sl4-31/">
-              <span class="text">REWATCH</span>
+              <button class="custom-btn btn-17 text">REWATCH</button>
+
             </a>
           </div>
         </div>
@@ -24,22 +25,12 @@ const Homepage = () => {
             <h2 className="missionHeader">Crew-4 Returns to Earth</h2>
             <div className="btn">
               <a class="reWatchBtn" tabindex="0" href="/launches/sl4-31/">
-                <span class="text">REWATCH</span>
+               <button class="custom-btn btn-17 text">REWATCH</button>
               </a>
             </div>
           </div>
         </div>
         <div className="Third-section">
-        <div className="">
-            <h4 className="animate">Completed Mission</h4>
-            <h2 className="missionHeader">Crew-4 Returns to Earth</h2>
-            <div className="btn">
-              <a class="reWatchBtn" tabindex="0" href="/launches/sl4-31/">
-                <span class="text">REWATCH</span>
-              </a>
-            </div>
-          </div>
-          <h6>hjhkjhj</h6>
         </div>
       </div>
       <footer className="footer">

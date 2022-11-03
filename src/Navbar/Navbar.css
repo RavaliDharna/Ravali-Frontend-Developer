@@ -14,10 +14,13 @@
 
 .Navbar ul li {
     display: flex;
-    flex-direction: row;
     padding: 10px 20px 20px 20px;
-    justify-content: center;
 
+}
+
+.navName:hover {
+    border-bottom: 2px solid #d0d0d0;
+    cursor: pointer;
 }
 
 .Navbar ul {
@@ -91,8 +94,8 @@ a:active, a:link, a:visited {
   .closeIcon {
     float: right;
     position: absolute;
-    right: 30px;
-    top: 30px;
+    right: 20px;
+    top: 15px;
   }
   .menu-list {
     display: flex !important;
